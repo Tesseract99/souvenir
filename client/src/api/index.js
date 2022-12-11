@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:5000";
+const url = "https://souvenir-brkr.onrender.com";
 // const url = "https://salty-shelf-09646.herokuapp.com/posts";
 
 const API = axios.create({ baseURL: url });
