@@ -25,7 +25,7 @@ import { deletePost, likePost } from "../../../store/slice/postActions";
 import { useDispatch, useSelector } from "react-redux";
 
 const Post = ({ post, setCurrentId }) => {
-  console.log(post);
+  // console.log(post);
   // const user = JSON.parse(localStorage.getItem("profile"));
   const user = useSelector((state) => state.auth.authData);
   // console.log(user?.result._id);

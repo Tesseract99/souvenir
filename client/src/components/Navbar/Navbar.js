@@ -32,7 +32,7 @@ const Navbar = () => {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem("profile")));
   let authData = useSelector((state) => state.auth.authData);
   useEffect(() => {
-    console.log("useEffect ran!");
+    // console.log("useEffect ran!");
     setUser(JSON.parse(localStorage.getItem("profile")));
     if (JSON.parse(localStorage.getItem("profile"))) {
       navigate("/posts");
