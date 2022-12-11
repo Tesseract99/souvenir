@@ -1,0 +1,3 @@
+# Redirects from what the browser requests to what we serve
+/posts              https://souvenir-vibes.netlify.app
+/auth               https://souvenir-vibes.netlify.app
